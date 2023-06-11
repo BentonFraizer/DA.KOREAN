@@ -62,11 +62,21 @@ cd DA.KOREAN/server/
 ```
 npm install
 ```
-8. create a database with:
+8.1 copy file .env.example, rename to .env
+8.2 change DATABASE_URL. For example:
+from
+```
+DATABASE_URL = postgres://login:password@ip:port/bd_name
+```
+to
+```
+postgres://postgres:postgres@localhost:5432/da_korean
+```
+9. create a database with:
 ```
 npm run dbr
 ```
-9. run in the **dev** mode with:
+10. run in the **dev** mode with:
 ```
 npm run dev
 ```
