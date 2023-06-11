@@ -72,7 +72,7 @@ DATABASE_URL = postgres://login:password@ip:port/bd_name
 ```
 to
 ```
-postgres://postgres:postgres@localhost:5432/da_korean
+DATABASE_URL = postgres://postgres:postgres@localhost:5432/da_korean
 ```
 9. create a database with:
 ```
