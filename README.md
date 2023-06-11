@@ -65,6 +65,7 @@ npm install
 8.1 copy file .env.example, rename to .env
 
 8.2 change DATABASE_URL. For example:
+
 from
 ```
 DATABASE_URL = postgres://login:password@ip:port/bd_name
